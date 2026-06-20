@@ -73,29 +73,17 @@ flutter pub get
 
 ```env
 OPENAI_API_KEY=your_openai_api_key
-OPENAI_MODEL=gpt-5.4-mini
+OPENAI_MODEL=gpt-5.5
 ```
 
 보안을 위해 실제 API 키가 들어간 `.env` 파일은 GitHub에 업로드하지 않습니다.  
-필요한 환경 변수 형식은 `.env.example` 파일을 참고하면 됩니다.
+필요한 환경 변수 형식은 `.env.example` 파일을 참고하시고 과제 제출 시 함께 보내는 OPENAI_API_KEY.txt를 확인하고 작성해주세요.
 
 ### 4. 앱 실행
 
 ```bash
 flutter run
 ```
-
-## 실행 화면
-
-과제 제출 시 아래 표에 실행 화면 캡처 이미지를 추가합니다.
-
-| 스플래시 화면 | 메인 화면 |
-| --- | --- |
-| 이미지 추가 | 이미지 추가 |
-
-| AI 사진 인식 | 직접 검색 |
-| --- | --- |
-| 이미지 추가 | 이미지 추가 |
 
 ## 프로젝트 구조
 
@@ -140,3 +128,5 @@ lib/
 - AI 인식 정확도 개선
 - 배출일 알림 기능 추가
 - 사용자 검색 기록 기반 추천 기능 추가
+
+
